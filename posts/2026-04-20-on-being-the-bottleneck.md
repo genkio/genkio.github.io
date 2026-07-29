@@ -1,0 +1,9 @@
+# On Being the Bottleneck
+
+Last week, I shared my current dev environment setup, "the poor man's version of the multi-agent orchestration, the kind where I'm the one taking the lead, and the kind that I can actually keep up with". But there's also a fatal flaw of this setup in this day and age, with me taking the lead, to be honest, I'm the bottleneck. Well, the thing is, that's just how things gonna be going forward, with me being born the way I am, I just have to live with that, but still, it feels bad for not be able to fully utilize the tools, the power that I have been given.
+
+Which brings to the actual sharing of this week, I posted in the dev-ai channel while I was taking the day offs few week back, that I tried out the auto-research strategy that Andrej Karpathy talked about on x, it's a specialized version of the ralph loop essentially. Instead of just completing tasks, it focuses on optimization, to be more specific, it focuses on optimization through a survival-of-the-best loop where every change must prove its value against a benchmark.
+
+So I set up the goal of reducing client bundle size, then let it off the leash, I don't recall exactly, it took like hours, finished with a over 30% bundle size reduction, despite the fact we're not gonna just go ahead and merge that branch, due to the quality of code, but, I was truly impressed by it, and found couple of good and solid ideas that we could actually apply separately later.
+
+Out of that experiment, what I witnessed is that, your agents would literally move mountains for you, as long as your give them a clear goal and the way to measure the success. With that in mind, last week, I spent some time putting our monorepo stack into a sandbox, as play around, where maybe more big ideas can be experimented with using auto-research, to help me, the bottleneck, be a slightly less useless link in my own pipeline.

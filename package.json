@@ -1,0 +1,13 @@
+{
+  "name": "genkio-blog",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node dev.mjs"
+  },
+  "dependencies": {
+    "marked": "^16.4.0"
+  }
+}
